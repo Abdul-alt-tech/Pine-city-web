@@ -1,0 +1,260 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: burlywood;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  width: 100%;
+  height: 80px;
+  background-image: url(images/wood-bg.png);
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header img {
+  height: 60px; /* adjust the height to fit your logo */
+  width: auto;
+}
+
+#tabs-top {
+  position: fixed;
+  top: 80px; /* add some space below the fixed header */
+  text-align: center;
+  padding: 10px;
+  
+}
+#tabs-top {
+  position: relative;
+  top: 80px; /* space below the fixed header */
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0; /* add a background color */
+  border-bottom: 1px solid #ddd; /* add a bottom border */
+}
+
+#tabs-top a {
+  text-decoration: none; /* remove underline */
+  color: #333; /* set link color */
+  margin: 0 20px; /* add space between links */
+  transition: color 0.2s ease; /* add a transition effect */
+}
+
+#tabs-top a:hover {
+  color: #666; /* change link color on hover */
+}
+#tabs-top a {
+  padding: 10px 20px; /* add padding to the links */
+  border-radius: 5px; /* add a border radius */
+  background-color: #fff; /* add a background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a box shadow */
+}
+
+#tabs-top a:hover {
+  background-color: green; /* change background color on hover */
+}
+
+
+
+#main-home {
+  position: relative;
+  top: 95px; /* add some space below the fixed header and tabs */
+  text-align: center;
+}
+
+#main-home img {
+  width: 300px; /* adjust the width to fit your needs */
+  height: auto;
+  margin: 0%;
+  border-radius: 10px; /* add some style to the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add some shadow */
+}
+
+
+  
+
+#tabs-bottom {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0; /* add a background color */
+}
+
+body {
+  position: relative;
+  min-height: 100vh; /* set the minimum height to the viewport height */
+}
+#tabs-bottom a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 20px;
+}
+
+#tabs-bottom a:hover {
+  color: #666;
+}
+#tabs-bottom a {
+  padding: 10px 20px; /* add padding to the links */
+  border-radius: 5px; /* add a border radius */
+  background-color: white; /* add a background color */
+}
+
+#tabs-bottom a:hover {
+  background-color: green; /* change background color on hover */
+}
+
+/*styling the animals page*/
+#main {
+  margin-top: 80px;
+  background: url(images/map-blur.png);
+  background-repeat: repeat; /* or repeat-y if you only want vertical repeat */
+  background-size: auto; /* or 100% or cover */
+  min-height: 100vh; /* or a specific height */
+}
+
+#content{padding-top: 1px;
+         padding-bottom: 50px;
+}
+
+/**info box*/
+a.info-box{
+  text-decoration: none;
+  background: rgba(255,255,255,.8);
+  width: 90%;
+  height: 90px;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+  padding: 1px;
+}
+
+.info-box img{
+  height: 70px;
+  margin: 10px;
+  float: left;
+}
+.info-box h3{
+  padding: 0;
+  margin-bottom: 0;
+  width: 90%;
+  color: brown;
+}
+
+.info-box p{
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  color: grey;
+}
+.info-box img.right{
+  float: right;
+  margin-top: 25px;
+  height: 40px;
+}
+
+/*INFO BOX FULL*/
+#info-box-full{
+  background: rgba(255,255,255,.8);
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+  padding: 10px;
+}
+#info-box-full img{
+  width: 100%;
+}
+#info-box-full{
+  text-align: center;
+}
+
+
+
+
+
+/*stylimg the weather page*/
+img.info-box-weather-icon{
+  height: 30px;
+  width: 30px !important;
+  margin: 10px;
+  float: left;
+
+}
+
+h1.info-box-weather-icon{
+  font-size: 65px;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.info-box-weather-icon, 
+strong {
+  display: block;
+  text-align: left;
+}
+
+#info-box-full p:nth-child(3) {
+  text-align: left;
+}
+p.info-box-weather-icon{
+  text-align: left;
+}
+
+.weather-text {
+  text-align: left;
+}
+
+table{
+  width: 100%;
+}
+td{
+  border-top: 1px solid #333
+}
+
+/*stylinf the feedback page*/
+input{
+  width: 100%;
+  height: 25px;
+  margin: 12px 0;
+  border: 1px solid #333;
+}
+textarea{
+  width: 100%;
+  height: 65px;
+  margin: 12px 0;
+  border: 1px solid #333;
+}
+
+.button{
+  display: block;
+  width: 100%;
+  background-color: aquamarine;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0;
+  padding: 8px 0;
+}
+/* aligning the messege we used important bcz it was being overridden by another styling property*/
+.confirmation-message {
+  text-align: center !important;
+}
+
+
+
+
+
+
